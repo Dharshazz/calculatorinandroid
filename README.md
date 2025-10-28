@@ -1,13 +1,15 @@
-Ex_5_-Develop a simple calculator using android studio.
+# Ex_5_-Develop a simple calculator using android studio.
 Develop a program to create a simple calculator using Android Studio.
 
-AIM:
+## AIM:
 To develop a program to create a simple calculator using Android Studio.
 
-EQUIPMENTS REQUIRED:
+## EQUIPMENTS REQUIRED:
+
 Android Studio(Min. required Artic Fox)
 
-ALGORITHM:
+
+## ALGORITHM:
 Step 1: Open Android Studio and then click on File -> New -> New project.
 
 Step 2: Then type the Application name as SMSIntent and click Next.
@@ -22,13 +24,18 @@ Step 6: Perform the Calculator Operation in MainActivity.java
 
 Step 7: Save and run the application.
 
-Program:
+
+## Program:
+ ```
 /*
 Program to create simple calculator using Android Studio.
 Developed by: DHINESH S
 RegisterNumber: 212224220025 
 */
-MainActivity.java:
+```
+
+## MainActivity.java:
+```
 
 package com.example.calculatorapp;
 
@@ -90,7 +97,14 @@ public class MainActivity extends AppCompatActivity {
         tvResult.setText(n1 + " " + op + " " + n2 + " = "+res);
     }
 }
-activity_main.xml:
+```
+
+
+
+
+
+## activity_main.xml:
+```
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -185,7 +199,11 @@ activity_main.xml:
         android:backgroundTint="#FF6666"
         android:text="/" />
 </LinearLayout>
-AndroidMainfest.xml
+```
+
+
+## AndroidMainfest.xml
+```
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
@@ -212,7 +230,12 @@ AndroidMainfest.xml
 
 </manifest>
 
-Output:
-image
-Result:
+```
+
+## Output:
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/6df96ea9-dced-4e70-b272-6c8d542cae0f" />
+
+
+
+## Result:
 Thus a Simple Android Application to create a calculator using Android Studio was developed and executed successfully.
